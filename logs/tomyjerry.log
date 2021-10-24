@@ -1,0 +1,16 @@
+2021-10-24 15:46:40.287  INFO 18624 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 18624 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-24 15:46:40.291  INFO 18624 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-24 15:46:42.301  INFO 18624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-24 15:46:42.317  INFO 18624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 15:46:42.322  INFO 18624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-24 15:46:42.440  INFO 18624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-24 15:46:42.441  INFO 18624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2070 ms
+2021-10-24 15:46:43.156  INFO 18624 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-24 15:46:43.355  INFO 18624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-24 15:46:43.793  INFO 18624 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.064 seconds (JVM running for 4.559)
+2021-10-24 15:47:00.503  INFO 18624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 15:47:00.504  INFO 18624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:47:00.506  INFO 18624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-24 15:47:41.292  INFO 18624 --- [http-nio-8080-exec-10] c.e.u.d.t.t.c.LoggingController          : Un evento de info
+2021-10-24 15:47:50.209 ERROR 18624 --- [http-nio-8080-exec-1] c.e.u.d.t.t.c.LoggingController          : Un evento de error
+2021-10-24 15:48:10.611  WARN 18624 --- [http-nio-8080-exec-3] c.e.u.d.t.t.c.LoggingController          : Un evento de warn
