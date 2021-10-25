@@ -16,6 +16,7 @@ public class LoggingController {
     //Logger logger = LoggerFactory.getLogger(LoggingController.class);
     Logger logger = LogManager.getLogger(LoggingController.class);
 
+
     @GetMapping(path = "/info")
     public String info() {
         logger.info("Un evento de info");
