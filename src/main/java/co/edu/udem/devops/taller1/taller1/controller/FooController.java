@@ -22,7 +22,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/foos")
-class FooController {
+public class FooController {
 
     Logger logger = LogManager.getLogger(FooController.class);
 
@@ -41,9 +41,9 @@ class FooController {
         
         Foo foo2 = new Foo();
         foo2.setId(2);
-        foo2.setName("Test2");;
+        foo2.setName("Test2");
         
-        List<Foo> listFoo = new ArrayList<Foo>();
+        List<Foo> listFoo = new ArrayList<>();
         listFoo.add(foo1);
         listFoo.add(foo2);
         
