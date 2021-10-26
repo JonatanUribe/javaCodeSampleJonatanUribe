@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import co.edu.udem.devops.taller1.taller1.controller.FooController;
 
-public class FooTest {
+class FooTest {
     
     @Test
     void Foo(){
