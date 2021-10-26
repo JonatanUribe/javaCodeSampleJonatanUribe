@@ -36,14 +36,14 @@ public class FooController {
     public List<Foo> findAll() {
         logger.info("findAll");
         Foo foo1 = new Foo();
-        foo1.id = 1;
-        foo1.name = "test1";
+        foo1.setId(1);
+        foo1.setName("Test1");
         Foo foo2 = new Foo();
-        foo2.id = 2;
-        foo2.name = "test2";
-        List<Foo> listFoo = new ArrayList() {{
-            add(foo1); add(foo2);
-        }};
+        foo2.setId(2);
+        foo2.setName("Test2");;
+        List<Foo> listFoo = new ArrayList();
+        listFoo.add(foo1);
+        listFoo.add(foo2);
         return listFoo;
     }
 
@@ -57,8 +57,8 @@ public class FooController {
     public Foo findById(@ApiParam(value = "Id Foo", required = true) @PathVariable("id") int id) {
         logger.info("findById");
         Foo foo = new Foo();
-        foo.id = 1;
-        foo.name = "estefa";
+        foo.setId(1);
+        foo.setName("Test1");
         return foo;
     }
 

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SumaTest {
+class SumaTest {
     @Test
     void suma() {
         Suma suma = new Suma(3,5);
