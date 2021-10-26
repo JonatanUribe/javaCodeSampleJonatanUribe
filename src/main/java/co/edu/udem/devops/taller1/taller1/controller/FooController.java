@@ -1,7 +1,5 @@
 package co.edu.udem.devops.taller1.taller1.controller;
 
-//import java.util.List;
-
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
@@ -16,12 +14,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
 import co.edu.udem.devops.taller1.taller1.Foo;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
-
 import org.springframework.http.HttpStatus;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +35,16 @@ public class FooController {
     @GetMapping
     public List<Foo> findAll() {
         logger.info("findAll");
-        return new ArrayList();
+        Foo foo1 = new Foo();
+        foo1.id = 1;
+        foo1.name = "test1";
+        Foo foo2 = new Foo();
+        foo2.id = 2;
+        foo2.name = "test2";
+        List<Foo> listFoo = new ArrayList() {{
+            add(foo1); add(foo2);
+        }};
+        return listFoo;
     }
 
     @ApiOperation(
