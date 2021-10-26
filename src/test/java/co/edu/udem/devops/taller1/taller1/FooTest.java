@@ -14,7 +14,7 @@ public class FooTest {
         Foo foo = fooController.findById(1);
         Foo foo2 = new Foo();
         foo2.setId(1);
-        foo2.setName("estefa");
+        foo2.setName("Test1");
         assertEquals(foo2.getId(),foo.getId());
         assertEquals(foo2.getName(),foo.getName());
     }
