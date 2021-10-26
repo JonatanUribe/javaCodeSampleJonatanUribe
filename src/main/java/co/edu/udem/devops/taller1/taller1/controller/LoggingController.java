@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Configuration 
 public class LoggingController {
 
-    //Logger logger = LoggerFactory.getLogger(LoggingController.class);
     Logger logger = LogManager.getLogger(LoggingController.class);
-
 
     @GetMapping(path = "/info")
     public String info() {

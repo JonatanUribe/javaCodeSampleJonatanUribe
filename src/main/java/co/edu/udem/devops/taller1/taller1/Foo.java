@@ -4,5 +4,8 @@ import io.swagger.annotations.ApiModel;
 
 @ApiModel
 public class Foo {
-    public Foo(){}
+    public Foo(){
+    }
+    public int id;
+    public String name;
 }
