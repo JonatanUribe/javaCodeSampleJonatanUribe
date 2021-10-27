@@ -8282,3 +8282,60 @@ Unconditional classes:
 2021-10-26 16:42:22.306  INFO 18224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-10-26 16:42:22.309  INFO 18224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2021-10-26 16:42:45.243  INFO 18224 --- [http-nio-8080-exec-1] c.e.u.d.t.t.controller.FooController     : findById
+2021-10-26 19:22:01.337  INFO 14648 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 14648 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-26 19:22:01.343  INFO 14648 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-26 19:22:03.946  INFO 14648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-26 19:22:03.982  INFO 14648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:22:03.983  INFO 14648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-26 19:22:04.224  INFO 14648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:22:04.229  INFO 14648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2800 ms
+2021-10-26 19:22:05.552  INFO 14648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-26 19:22:05.791  INFO 14648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-26 19:22:06.357  INFO 14648 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 5.693 seconds (JVM running for 6.229)
+2021-10-26 19:22:15.020  INFO 14648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 19:22:15.021  INFO 14648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 19:22:15.023  INFO 14648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-26 19:23:04.432  INFO 20204 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 20204 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-26 19:23:04.437  INFO 20204 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-26 19:23:06.378  INFO 20204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-26 19:23:06.400  INFO 20204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:23:06.402  INFO 20204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-26 19:23:06.565  INFO 20204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:23:06.566  INFO 20204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2044 ms
+2021-10-26 19:23:07.364  INFO 20204 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-26 19:23:07.613  INFO 20204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-26 19:23:08.124  INFO 20204 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.246 seconds (JVM running for 4.778)
+2021-10-26 19:23:13.734  INFO 20204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 19:23:13.735  INFO 20204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 19:23:13.737  INFO 20204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-26 19:24:20.971  INFO 22504 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 22504 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-26 19:24:20.975  INFO 22504 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-26 19:24:23.487  INFO 22504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-26 19:24:23.508  INFO 22504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:24:23.510  INFO 22504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-26 19:24:23.664  INFO 22504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:24:23.665  INFO 22504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2603 ms
+2021-10-26 19:24:24.626  INFO 22504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-26 19:24:25.029  INFO 22504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-26 19:24:25.595  INFO 22504 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 5.319 seconds (JVM running for 5.77)
+2021-10-26 19:24:29.168  INFO 22504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 19:24:29.169  INFO 22504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 19:24:29.172  INFO 22504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-26 19:24:48.524 ERROR 22504 --- [http-nio-8080-exec-10] c.e.u.d.t.t.c.LoggingController          : Un evento de error
+2021-10-26 20:09:37.998  INFO 4256 --- [main] c.e.u.d.t.t.Taller1ApplicationTests      : Starting Taller1ApplicationTests using Java 1.8.0_301 on LAPTOP-OR80F032 with PID 4256 (started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-26 20:09:38.003  INFO 4256 --- [main] c.e.u.d.t.t.Taller1ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-10-26 20:09:41.103  INFO 4256 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-26 20:09:42.623  INFO 4256 --- [main] c.e.u.d.t.t.Taller1ApplicationTests      : Started Taller1ApplicationTests in 4.971 seconds (JVM running for 6.331)
+2021-10-26 21:10:33.320  INFO 14772 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 14772 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-26 21:10:33.324  INFO 14772 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-26 21:10:35.558  INFO 14772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-26 21:10:35.579  INFO 14772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 21:10:35.580  INFO 14772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-26 21:10:35.748  INFO 14772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 21:10:35.749  INFO 14772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2343 ms
+2021-10-26 21:10:36.707  INFO 14772 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-26 21:10:36.949  INFO 14772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-26 21:10:37.420  INFO 14772 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.676 seconds (JVM running for 5.193)
+2021-10-26 21:10:49.125  INFO 14772 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 21:10:49.126  INFO 14772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 21:10:49.128  INFO 14772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
