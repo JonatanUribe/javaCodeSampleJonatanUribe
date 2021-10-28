@@ -20,6 +20,6 @@ script:
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "jonatanuribe" ]; then
-    docker login --username="$DOCKER_USERNAME" --pasword="$DOCKER_PASSWORD";
+    docker login --username="$DOCKER_USERNAME" --password="$DOCKER_PASSWORD";
     docker push jonug84/test;
     fi
