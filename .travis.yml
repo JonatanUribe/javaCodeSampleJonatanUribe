@@ -20,7 +20,6 @@ script:
   - docker login --username="$HEROKU_USERNAME" --password="$HEROKU_PASSWORD" $HEROKU_API_KEY registry.heroku.com;
   - docker login --username="$DOCKER_USERNAME" --password="$DOCKER_PASSWORD";
   - docker push jonug84/test;
-  - heroku container:push web --app jonatanuribe
-  - heroku container:release web --app jonatanuribe
+  - heroku container:push web --app jonatanuribe $HEROKU_API_KEY registry.heroku.com;
+  - heroku container:release web --app jonatanuribe $HEROKU_API_KEY registry.heroku.com;
 
-  
