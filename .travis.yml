@@ -16,12 +16,9 @@ services:
   - docker
 
 before_install:
-  - docker build -t JonatanUribe/javaCodeSampleJonatanUribe .
+  - docker build -t jonug84/test .
+  - docker run -d -p 127.0.0.1:80:4567 jonug84/test /bin/sh -c "cd /root/test; bundle exec foreman start;"
+  - docker ps -a
+  - docker run jonug84/test /bin/sh -c "cd /root/test; bundle exec rake test"
 script:
-  - docker images JonatanUribe/javaCodeSampleJonatanUribe
-
-after_success:
-  - if [ "$TRAVIS_BRANCH" == "jonatanuribe" ]; then
-    docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    docker push JonatanUribe/javaCodeSampleJonatanUribe;
-    fi
+  - bundle exec rake test
