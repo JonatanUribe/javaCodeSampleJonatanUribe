@@ -17,8 +17,7 @@ services:
 
 before_install:
   - docker build -t jonug84/test .
-  - docker run -d -p 127.0.0.1:80:4567 jonug84/test /bin/sh -c "cd /root/test; bundle exec foreman start;"
-  - docker ps -a
-  - docker run jonug84/test /bin/sh -c "cd /root/test; bundle exec rake test"
+  - docker run -d -p 127.0.0.1:80:4567 jonug84/test 
+  - docker ps -a 
 script:
   - bundle exec rake test
