@@ -6,7 +6,7 @@ services:
 before_install:
   - chmod +x mvnw
   - docker build -t jonug84/test .
-  - docker run -d -p 127.0.0.1:8080 jonug84/test 
+  - docker run -d -p 127.0.0.1:80:4567 jonug84/test 
   - wget -qO- https://toolbelt.heroku.com/install.sh | sh
 
 sudo: true
