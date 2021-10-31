@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>3.0.0</version>
+			<version>2.9.2</version>
 		</dependency>
 
 		<dependency>
@@ -77,17 +77,7 @@
 			<type>test-jar</type>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-		<dependency>
-            <groupId>com.newrelic.agent.java</groupId>
-            <artifactId>newrelic-java</artifactId>
-            <version>7.3.0</version>
-            <scope>provided</scope>
-            <type>zip</type>
-        </dependency>
+
 	</dependencies>
 
 	<build>
@@ -110,39 +100,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.1.1</version>
-				<executions>
-					<execution>
-						<id>unpack-newrelic</id>
-						<phase>package</phase>
-						<goals>
-							<goal>unpack-dependencies</goal>
-						</goals>
-						<configuration>
-							<includeGroupIds>com.newrelic.agent.java</includeGroupIds>
-							<includeArtifactIds>newrelic-java</includeArtifactIds>
-							<!-- you can optionally exclude files -->
-							<!-- <excludes>**/newrelic.yml</excludes> -->
-							<overWriteReleases>false</overWriteReleases>
-							<overWriteSnapshots>false</overWriteSnapshots>
-							<overWriteIfNewer>true</overWriteIfNewer>
-							<outputDirectory>${project.build.directory}</outputDirectory>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+			
 		</plugins>
-		<repositories>
-			<repository>
-				<id>newrelic</id>
-				<name>newrelic</name>
-				<url>http://download.newrelic.com/</url>
-			</repository>
-    	</repositories>
-
 	</build>
 
 </project>
