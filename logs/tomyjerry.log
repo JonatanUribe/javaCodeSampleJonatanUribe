@@ -49,3 +49,266 @@
 2021-10-31 11:54:32.479  INFO 18888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
 2021-10-31 11:54:32.729  INFO 18888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2021-10-31 11:54:33.235  INFO 18888 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.326 seconds (JVM running for 4.763)
+2021-10-31 12:04:22.391  INFO 12824 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 12824 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:04:22.395  INFO 12824 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:04:24.191  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:04:24.206  INFO 12824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:04:24.207  INFO 12824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:04:24.345  INFO 12824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:04:24.345  INFO 12824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1872 ms
+2021-10-31 12:04:25.170  INFO 12824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:04:25.385  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:04:25.869  INFO 12824 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.048 seconds (JVM running for 4.524)
+2021-10-31 12:04:33.516  INFO 12824 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 12:04:33.518  INFO 12824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 12:04:33.521  INFO 12824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-31 12:38:10.539  INFO 1924 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 1924 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:38:10.543  INFO 1924 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:38:11.087  WARN 1924 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2021-10-31 12:38:11.104  INFO 1924 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-31 12:38:11.149 ERROR 1924 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.10.jar:5.3.10]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.5.jar:2.5.5]
+	at co.edu.udem.devops.taller1.taller1.Taller1Application.main(Taller1Application.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:226) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.10.jar:5.3.10]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.boot.actuate.endpoint.EndpointId.<init>(EndpointId.java:58) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.endpoint.EndpointId.fromPropertyValue(EndpointId.java:146) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter$EndpointPatterns.<init>(IncludeExcludeEndpointFilter.java:219) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:89) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:78) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition$Exposure.<init>(OnAvailableEndpointCondition.java:96) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getExposures(OnAvailableEndpointCondition.java:84) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:64) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 22 common frames omitted
+
+2021-10-31 12:39:53.407  INFO 8772 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 8772 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:39:53.411  INFO 8772 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:39:54.061  WARN 8772 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2021-10-31 12:39:54.082  INFO 8772 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-31 12:39:54.123 ERROR 8772 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.10.jar:5.3.10]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.5.jar:2.5.5]
+	at co.edu.udem.devops.taller1.taller1.Taller1Application.main(Taller1Application.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:226) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.10.jar:5.3.10]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.boot.actuate.endpoint.EndpointId.<init>(EndpointId.java:58) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.endpoint.EndpointId.fromPropertyValue(EndpointId.java:146) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter$EndpointPatterns.<init>(IncludeExcludeEndpointFilter.java:219) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:89) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:78) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition$Exposure.<init>(OnAvailableEndpointCondition.java:96) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getExposures(OnAvailableEndpointCondition.java:84) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:64) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 22 common frames omitted
+
+2021-10-31 12:40:16.005  INFO 1992 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 1992 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:40:16.009  INFO 1992 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:40:16.481  WARN 1992 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2021-10-31 12:40:16.496  INFO 1992 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-31 12:40:16.534 ERROR 1992 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.10.jar:5.3.10]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.5.jar:2.5.5]
+	at co.edu.udem.devops.taller1.taller1.Taller1Application.main(Taller1Application.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:226) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.10.jar:5.3.10]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.boot.actuate.endpoint.EndpointId.<init>(EndpointId.java:58) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.endpoint.EndpointId.fromPropertyValue(EndpointId.java:146) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter$EndpointPatterns.<init>(IncludeExcludeEndpointFilter.java:219) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:89) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:78) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition$Exposure.<init>(OnAvailableEndpointCondition.java:96) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getExposures(OnAvailableEndpointCondition.java:84) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:64) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 22 common frames omitted
+
+2021-10-31 12:40:33.838  INFO 21520 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 21520 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:40:33.842  INFO 21520 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:40:34.386  WARN 21520 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2021-10-31 12:40:34.405  INFO 21520 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-31 12:40:34.455 ERROR 21520 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [co.edu.udem.devops.taller1.taller1.Taller1Application]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.10.jar:5.3.10]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.5.jar:2.5.5]
+	at co.edu.udem.devops.taller1.taller1.Taller1Application.main(Taller1Application.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:226) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.10.jar:5.3.10]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.boot.actuate.endpoint.EndpointId.<init>(EndpointId.java:58) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.endpoint.EndpointId.fromPropertyValue(EndpointId.java:146) ~[spring-boot-actuator-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter$EndpointPatterns.<init>(IncludeExcludeEndpointFilter.java:219) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:89) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:78) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition$Exposure.<init>(OnAvailableEndpointCondition.java:96) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getExposures(OnAvailableEndpointCondition.java:84) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:64) ~[spring-boot-actuator-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 22 common frames omitted
+
+2021-10-31 12:40:46.058  INFO 14412 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 14412 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:40:46.063  INFO 14412 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:40:48.222  INFO 14412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:40:48.238  INFO 14412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:40:48.239  INFO 14412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:40:48.385  INFO 14412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:40:48.386  INFO 14412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2246 ms
+2021-10-31 12:40:49.145  INFO 14412 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-31 12:40:49.397  INFO 14412 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:40:49.662  INFO 14412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:40:50.193  INFO 14412 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.687 seconds (JVM running for 5.136)
+2021-10-31 12:41:35.910  INFO 26732 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 26732 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:41:35.914  INFO 26732 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:41:38.441  INFO 26732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:41:38.464  INFO 26732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:41:38.466  INFO 26732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:41:38.653  INFO 26732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:41:38.654  INFO 26732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2666 ms
+2021-10-31 12:41:39.464  INFO 26732 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-31 12:41:39.738  INFO 26732 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:41:39.999  INFO 26732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:41:40.524  INFO 26732 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 5.307 seconds (JVM running for 5.752)
+2021-10-31 12:42:13.509  INFO 22560 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 22560 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:42:13.513  INFO 22560 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:42:15.726  INFO 22560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:42:15.744  INFO 22560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:42:15.745  INFO 22560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:42:15.879  INFO 22560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:42:15.880  INFO 22560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2279 ms
+2021-10-31 12:42:16.711  INFO 22560 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-31 12:42:16.959  INFO 22560 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:42:17.177  INFO 22560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:42:17.680  INFO 22560 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 4.782 seconds (JVM running for 5.239)
+2021-10-31 12:42:46.371  INFO 15596 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 15596 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:42:46.375  INFO 15596 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:42:48.558  INFO 15596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:42:48.574  INFO 15596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:42:48.575  INFO 15596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:42:48.707  INFO 15596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:42:48.707  INFO 15596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2259 ms
+2021-10-31 12:42:49.641  INFO 15596 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-31 12:42:49.990  INFO 15596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:42:50.275  INFO 15596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:42:50.817  INFO 15596 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 5.019 seconds (JVM running for 5.555)
+2021-10-31 12:42:58.361  INFO 15596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 12:42:58.362  INFO 15596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 12:42:58.366  INFO 15596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-10-31 12:44:56.389  INFO 21040 --- [main] c.e.u.d.t.taller1.Taller1Application     : Starting Taller1Application using Java 16.0.2 on LAPTOP-OR80F032 with PID 21040 (E:\estudio\Universidad\medellin\especializacion\calidad\taller1\target\classes started by jonug in E:\estudio\Universidad\medellin\especializacion\calidad\taller1)
+2021-10-31 12:44:56.394  INFO 21040 --- [main] c.e.u.d.t.taller1.Taller1Application     : No active profile set, falling back to default profiles: default
+2021-10-31 12:44:58.943  INFO 21040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 12:44:58.960  INFO 21040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 12:44:58.961  INFO 21040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-31 12:44:59.098  INFO 21040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 12:44:59.099  INFO 21040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2607 ms
+2021-10-31 12:44:59.963  INFO 21040 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-10-31 12:45:00.224  INFO 21040 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-31 12:45:00.467  INFO 21040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 12:45:01.126  INFO 21040 --- [main] c.e.u.d.t.taller1.Taller1Application     : Started Taller1Application in 5.46 seconds (JVM running for 5.973)
