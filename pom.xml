@@ -81,6 +81,7 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>compile</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -93,7 +94,7 @@
 				<configuration>
 					<release>8</release>
 				</configuration>
-				<defaultGoal>compile</defaultGoal>
+				
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
