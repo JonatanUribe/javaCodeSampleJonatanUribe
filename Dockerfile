@@ -1,4 +1,4 @@
-FROM adoptopenjdk/maven-openjdk
+FROM adoptopenjdk/maven-openjdk11
 WORKDIR /app
 COPY pom.xml /app/pom.xml
 COPY src /app/src
